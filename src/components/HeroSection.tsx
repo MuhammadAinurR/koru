@@ -26,7 +26,7 @@ export default function HeroSection() {
             variants={sectionVariants}
             transition={{ duration: 0.5 }}
         >
-            <div className="container px-4 md:px-6">
+            <div className="container px-4 md:px-6 lg:px-12 2xl:px-24">
                 <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
                     <motion.img
                         src={import.meta.env.BASE_URL + "/images/talent.avif"}
